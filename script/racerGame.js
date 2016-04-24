@@ -32,6 +32,8 @@ function updatePlayerPosition(player){
       // console.log(nextElement);
       if(player[i] === player[3]){
         alert("Game Over")
+        startGame(player1_items);
+        startGame(player2_items);
       }else{
         nextElement.className = "active";
         player[i].className = "";
