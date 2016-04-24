@@ -23,6 +23,7 @@ function startGame(playerItems){
 };
 startGame(player1_items);
 startGame(player2_items);
+alert("Press 'Q' to move player 1 and 'P' to move player 2")
 
 // update player position function
 function updatePlayerPosition(player){
